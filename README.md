@@ -1,6 +1,6 @@
-#SIMPLE-UPLOADER
+# SIMPLE-UPLOADER
 
-##Description
+## Description
 
 This package offers a simple way to create fancy styled file inputs with some sugar about security.
 
@@ -9,7 +9,7 @@ It gives also a simple template viewer to see items in the collection in the cas
 This package is inspired (and based) by Osvaldas Valutis's awesome work 
 http://tympanus.net/codrops/2015/09/15/styling-customizing-file-inputs-smart-way
 
-##Features
+## Features
 
 - each uploaded file shall have a field 'metadata.userId' whenever applicable
 
@@ -47,9 +47,9 @@ supSecurityOptions = {
 
 - Workflow
 
-CLIENT : asks for some ids or ALL ( leaving ids undefined) files
+CLIENT asks for some ids or ALL ( leaving ids undefined) files
 
-SERVER : filter the request with supSecurityOptions
+SERVER filters the request with supSecurityOptions
 
     - if owner is set return only files owned by the user
     - if list is set return
@@ -59,6 +59,6 @@ SERVER : filter the request with supSecurityOptions
         - return ALL if ! ids
         - return ids if ids
 
-##TODO
+## TODO
 - test package (how to test input file?)
 - option for href (supViewer shows clickable images)

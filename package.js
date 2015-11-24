@@ -1,6 +1,6 @@
 Package.describe({
   name: 'giggioz:simple-uploader',
-  version: '0.0.2',
+  version: '0.0.3',
   summary: 'A simple way to create fancy styled file inputs with some sugar about security',
   git: 'https://github.com/giggioz/simple-uploader',
   documentation: 'README.md'

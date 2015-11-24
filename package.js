@@ -1,6 +1,6 @@
 Package.describe({
   name: 'giggioz:simple-uploader',
-  version: '0.0.4',
+  version: '0.0.5',
   summary: 'A simple way to create fancy styled file inputs with some sugar about security',
   git: 'https://github.com/giggioz/simple-uploader',
   documentation: 'README.md'
@@ -11,8 +11,8 @@ Package.onUse(function(api) {
     api.versionsFrom('1.2.1');
 
     api.use('templating');
-    api.use('cfs:gridfs');
-    api.use('cfs:standard-packages');
+    api.use('cfs:gridfs@0.0.33');
+    api.use('cfs:standard-packages@0.5.9');
     api.use('accounts-base'); //TODO WEAK
 
 
